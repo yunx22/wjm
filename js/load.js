@@ -5,5 +5,5 @@ function loaderFunc() {
 
 function showPage() {
 	document.getElementById("loader").style.display = "none";
-	document.getElementById("myDiv").style.display = "block";
+	document.getElementById("mainBlock").style.display = "block";
 }
