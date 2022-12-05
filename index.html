@@ -10,7 +10,7 @@
     <script src="js/jquery.min.js"></script>
     <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
-  <body onload="myFunction()" style="margin:0">
+  <body onload="loaderFunc()" style="margin:0">
     <div id=loader>
       <canvas id="symbol" class="container"> </canvas>
       <canvas id="floating-words" class="container"> </canvas>
@@ -18,7 +18,7 @@
     <div style="display:none;" id="myDiv" class="animate-bottom">
       <h2>Tada!</h2>
       <p>Some text in my newly loaded page..</p>
-      <div id="bgm" align="center">
+      <div class="bgm" align="center">
         <audio autoplay="" controls="" loop="infinite">
           <source src="./music/No77.mp3" type="audio/mpeg">
         </audio>
@@ -33,7 +33,7 @@
 
 <script>
   var myVar;
-  function myFunction() {
+  function loaderFunc() {
     myVar = setTimeout(showPage, 5000);
   }
 

@@ -21,11 +21,6 @@ audio {
   -o-animation: anim 1.5s ease-in-out infinite;
   -moz-animation: anim 1.5s ease-in-out infinite;
 }
-#bgm {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 #name {
     position: absolute;
     top: 50%;
@@ -39,6 +34,11 @@ audio {
   width: 100%;
   height: 100%;
   background: black;
+}
+.bgm {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 @keyframes anim {
